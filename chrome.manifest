@@ -1,0 +1,4 @@
+content qrthis       chrome/content/
+locale  qrthis en-US chrome/locale/en-US/
+skin    qrthis skin  chrome/skin/
+overlay chrome://browser/content/browser.xul    chrome://qrthis/content/overlay.xul

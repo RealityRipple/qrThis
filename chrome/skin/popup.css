@@ -1,0 +1,6 @@
+#qrThisBox
+{
+ min-width: 256px;
+ min-height: 256px;
+ border: 4px solid blue;
+}
