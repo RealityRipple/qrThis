@@ -2,6 +2,6 @@
 <overlay id="TrackPackageOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
  <script type="application/x-javascript" src="chrome://qrthis/content/overlay.js" />
  <popup id="contentAreaContextMenu">
-  <menuitem id="qrThisMenu" label="qrThis" oncommand="qrThis.show();" />
+  <menuitem id="qrThisMenu" class="menuitem-iconic" image="chrome://qrthis/skin/menu.png" label="qrThis" oncommand="qrThis.show();" />
  </popup>
 </overlay>
