@@ -3,7 +3,7 @@
  <Description about="urn:mozilla:install-manifest">
   <em:name>qrThis</em:name>
   <em:id>{01C55014-E98E-54A2-B829-73ADD4C759AB}</em:id>
-  <em:version>1.1</em:version>
+  <em:version>1.2</em:version>
   <em:type>2</em:type>
   <!-- Pale Moon (Firefox ID) -->
   <em:targetApplication>
