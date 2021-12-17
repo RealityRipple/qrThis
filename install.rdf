@@ -19,5 +19,7 @@
   <em:creator>RealityRipple</em:creator>
   <em:iconURL>chrome://qrthis/skin/logo.png</em:iconURL>
   <em:icon64URL>chrome://qrthis/skin/logo64.png</em:icon64URL>
+  <em:optionsURL>chrome://qrthis/content/prefs.xul</em:optionsURL>
+  <em:optionsType>2</em:optionsType>
  </Description>
 </RDF>

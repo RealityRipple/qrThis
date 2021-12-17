@@ -2,6 +2,10 @@
 <overlay id="TrackPackageOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
  <script type="application/x-javascript" src="chrome://qrthis/content/overlay.js" />
  <popup id="contentAreaContextMenu">
-  <menuitem id="qrThisMenu" class="menuitem-iconic" image="chrome://qrthis/skin/menu.png" label="qrThis" oncommand="qrThis.show();" insertafter="context-selectall" />
+  <menuitem id="qrThisLinkMenu" class="menuitem-iconic" image="chrome://qrthis/skin/menu.png" label="qrLink" oncommand="qrThis.show_link();" insertafter="context-copylink" />
+  <menuitem id="qrThisSelectMenu" class="menuitem-iconic" image="chrome://qrthis/skin/menu.png" label="qrThis" oncommand="qrThis.show_selection();" insertafter="context-selectall" />
  </popup>
+ <hbox id="urlbar-icons">
+  <image id="ub-qr-button" class="urlbar-icon" src="chrome://qrthis/skin/menu.png" tooltiptext="qrAddress" onclick="if (event.button == 0) qrThis.show_addr();" insertbefore="star-button" />
+ </hbox>
 </overlay>
