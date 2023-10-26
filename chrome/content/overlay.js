@@ -2,6 +2,12 @@ var qrThis =
 {
  init: function()
  {
+  let m = document.getElementById('qrThisSelectMenu');
+  if (m)
+   m.hidden = true;
+  let u = document.getElementById('qrThisLinkMenu');
+  if (u)
+   u.hidden = true;
   let prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
   prefs.addObserver('extensions.qrthis.address', qrThis.prefObserver, false);
   qrThis.showAddr();
