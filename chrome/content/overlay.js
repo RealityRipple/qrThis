@@ -55,7 +55,7 @@ var qrThis =
  },
  popup: function()
  {
-  let s = qrThis.getSelString();
+  let s = qrThis.getSelString().trim();
   let m = document.getElementById('qrThisSelectMenu');
   if (m)
    m.hidden = (s.length < 1 || s.length > 256);
