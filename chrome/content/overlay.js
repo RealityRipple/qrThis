@@ -45,6 +45,8 @@ var qrThis =
  {
   if (el.nodeName === 'HTML')
    return false;
+  if (!el.hasAttribute)
+   return false;
   if (el.hasAttribute('href'))
    return el;
   if (el.parentNode)
